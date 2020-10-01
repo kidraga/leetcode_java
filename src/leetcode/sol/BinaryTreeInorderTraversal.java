@@ -1,5 +1,7 @@
 package leetcode.sol;
 
+import leetcode.sol.util.TreeNode;
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
@@ -54,17 +56,4 @@ public class BinaryTreeInorderTraversal {
         }
         return result;
     }
-
-   static class TreeNode {
-       int val;
-       TreeNode left;
-       TreeNode right;
-       TreeNode() {}
-       TreeNode(int val) { this.val = val; }
-       TreeNode(int val, TreeNode left, TreeNode right) {
-           this.val = val;
-           this.left = left;
-           this.right = right;
-       }
-   }
 }
