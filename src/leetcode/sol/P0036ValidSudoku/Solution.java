@@ -3,6 +3,12 @@ package leetcode.sol.P0036ValidSudoku;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Time: O(N^2) due to nested loop,
+ * Space: O(N^2) due to worst case the board is full and all 81 value needs to be saved.
+ * where N = 9. Since N is constant, both time and space are technically O(1).
+ * But the algorithm also apply to N = any number, so O(N^2) makes more sense.
+ */
 public class Solution {
     public boolean isValidSudoku(char[][] board) {
         int N = 9;
@@ -17,8 +23,8 @@ public class Solution {
             boxes[r] = new HashSet<Character>();
         }
 
-        for (int r = 0; r < N; r++) {
-            for (int c = 0; c < N; c++) {
+        for (int r = 0; r < N; r++) { // O(N) time
+            for (int c = 0; c < N; c++) { // O(N) time
                 char val = board[r][c];
 
                 // check if the position is filled with number
