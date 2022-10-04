@@ -7,6 +7,7 @@ import java.util.Stack;
 public class Solution2 {
     public boolean isSymmetric(TreeNode root) {
         if (root == null) return true;
+        if (root.left == null && root.right == null) return true;
         if (root.left == null || root.right == null) return false;
 
         Stack<TreeNode> stack = new Stack<>();
