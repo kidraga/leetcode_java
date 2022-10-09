@@ -1,5 +1,9 @@
 package leetcode.sol.P0410SplitArrayLargestSum;
 
+/**
+ * Time O(N * log(S)), S is sum of nums[].
+ * Space O(1)
+ */
 public class Solution {
     public int splitArray(int[] nums, int k) {
         // Find the sum of all elements and the maximum element
