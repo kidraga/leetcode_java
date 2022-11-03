@@ -23,6 +23,9 @@ public class Solution {
             return new int[0];
         }
         // 逆后序遍历结果即为拓扑排序结果
+        // 如果build gragh的时候是用的
+        // graph.get(to).add(from);
+        // 则不用做这一步reverse
         Collections.reverse(postorder);
         int[] res = new int[numCourses];
         for (int i = 0; i < numCourses; i++) {
