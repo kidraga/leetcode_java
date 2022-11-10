@@ -8,7 +8,7 @@ public class LFUCache {
     class Node {
         int key;
         int value;
-        int count;
+        int count; // frequency. 这个值被用了几次
         Node prev;
         Node next;
         Node(int key, int value) {
@@ -20,16 +20,17 @@ public class LFUCache {
         }
     }
 
-    class DLList {
+    class DLList { // double linked list.
         Node head;
         Node tail;
-        int size;
+        int size; // list size.
         DLList() {
             // initialized two dummy nodes as head and tail
             head = new Node(0, 0);
             tail = new Node(0, 0);
             head.next = tail;
             tail.prev = head;
+            size = 0;
         }
 
         /**
@@ -63,6 +64,7 @@ public class LFUCache {
     private int size;
     private int min;
     private Map<Integer, Node> keyToNodeMap;
+    // 同一count可能有多个值，需要存到一个list里
     private Map<Integer, DLList> countToListMap;
 
     public LFUCache(int capacity) {
@@ -73,8 +75,8 @@ public class LFUCache {
 
     public int get(int key) {
         Node node = keyToNodeMap.getOrDefault(key, null);
-        if (node == null) return -1;
-        update(node); // we just used this node, so update it to be the first node
+        if (node == null) return -1; // key不存在
+        update(node); // 刚刚使用了node，更新node里的count，并需要对应更新所在的list
         return node.value;
     }
 
