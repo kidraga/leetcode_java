@@ -10,8 +10,10 @@ public class Solution2 {
      * 上面的例子可以看出，会出现多个element的missingNumberCount相同，比如2,3,4，都缺1
      * 假如k=1,答案则应该return 1，在4的位置上，我们知道需要返回的值一定在左边，因为arr[2] - 1 - 2 = 1
      * 假如k=2，答案return 5, 在4的位置上，missingNumberCount=1, 1 < k=2，那么我们知道要返回的值不在4的左边
+     * 我们要找的，就是missingNumberCount的左边界
      * 二分法取index的中值mid，求出arr[mid] - 1 - mid
-     * 如果这个值比k小，说明目标在右侧
+     * 如果这个值比k小，左边界右移
+     * 如果>=k，右边界左移
      */
     public int findKthPositive(int[] arr, int k) {
         int left = 0, right = arr.length - 1;
