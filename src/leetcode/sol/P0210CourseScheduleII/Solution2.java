@@ -5,6 +5,11 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
+/**
+ * Iterative遍历
+ * 利用入度控制遍历的顺序
+ * 入queue的顺序直接就是topo sort的结果
+ */
 public class Solution2 {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         // 建图

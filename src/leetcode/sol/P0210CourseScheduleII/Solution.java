@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * recursive traverse. 后序遍历。然后reverse后续遍历的结果
+ */
 public class Solution {
 
     private List<Integer> postorder = new ArrayList<>(); // 记录后序遍历结果
@@ -49,22 +52,22 @@ public class Solution {
         return graph;
     }
 
-    private void traverse(List<List<Integer>> graph, int s) {
-        if (onPath[s]) {
+    private void traverse(List<List<Integer>> graph, int start) {
+        if (onPath[start]) {
             // 发现环
             hasCycle = true;
         }
-        if (visited[s] || hasCycle) {
+        if (visited[start] || hasCycle) {
             return;
         }
         // 前序遍历位置
-        onPath[s] = true;
-        visited[s] = true;
-        for (int t : graph.get(s)) {
-            traverse(graph, t);
+        onPath[start] = true;
+        visited[start] = true;
+        for (int target : graph.get(start)) {
+            traverse(graph, target);
         }
         // 后序遍历位置
-        postorder.add(s);
-        onPath[s] = false;
+        postorder.add(start);
+        onPath[start] = false;
     }
 }

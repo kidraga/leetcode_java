@@ -18,10 +18,14 @@ public class Solution {
                             else board[i][j] = '.';
                         }
                     }
+                    // if a position is '.', we tried all numbers but none working
+                    // return false
                     return false;
                 }
             }
         }
+
+        // if we can reach to last position, then we solved it.
         return true;
     }
 
