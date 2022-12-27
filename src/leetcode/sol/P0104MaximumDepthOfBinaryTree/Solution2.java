@@ -5,7 +5,7 @@ import leetcode.sol.util.TreeNode;
 
 import java.util.Stack;
 
-public class Solution2 {
+class Solution2 {
 
     public int maxDepth(TreeNode root) {
         if (root == null) return 0;

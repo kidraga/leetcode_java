@@ -1,6 +1,6 @@
 package leetcode.sol.P0048RotateImage;
 
-public class Solution {
+class Solution {
     public void rotate(int[][] matrix) {
         int n = matrix.length;
         // 先沿左下右上对角线镜像对称二维矩阵

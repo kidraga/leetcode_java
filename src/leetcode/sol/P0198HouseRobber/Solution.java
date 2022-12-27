@@ -7,7 +7,7 @@ import java.util.HashMap;
  * Time: O(N)
  * Space: O(N)
  */
-public class Solution {
+class Solution {
     private HashMap<Integer, Integer> memo = new HashMap<>();
     private int[] nums;
     public int rob(int[] nums) {

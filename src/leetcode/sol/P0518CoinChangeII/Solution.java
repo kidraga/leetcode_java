@@ -4,7 +4,7 @@ package leetcode.sol.P0518CoinChangeII;
  * Wrong answer
  * 不能保证组合是唯一的，例如[1,2], 3,那么1+2和2+1都会被算在结果里
  */
-public class Solution {
+class Solution {
     public int change(int amount, int[] coins) {
         /* dp(i) = total number of combinations to make up amount i
            At each state, we have some options: we can choose the coin that <= current target amount i

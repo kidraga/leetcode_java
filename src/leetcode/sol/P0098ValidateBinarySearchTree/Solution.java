@@ -2,7 +2,7 @@ package leetcode.sol.P0098ValidateBinarySearchTree;
 
 import leetcode.sol.util.TreeNode;
 
-public class Solution {
+class Solution {
 
     public boolean isValidBST(TreeNode root) {
 

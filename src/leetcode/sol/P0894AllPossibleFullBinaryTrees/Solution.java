@@ -1,13 +1,13 @@
 package leetcode.sol.P0894AllPossibleFullBinaryTrees;
 
+import leetcode.sol.util.TreeNode;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import leetcode.sol.util.TreeNode;
-
-public class Solution {
+class Solution {
     private Map<Integer, List<TreeNode>> cache = new HashMap<>();
     public List<TreeNode> allPossibleFBT(int n) {
         if (n % 2 == 0) return new ArrayList<>();

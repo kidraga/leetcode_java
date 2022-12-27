@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class Solution2 {
+class Solution2 {
 
     public List<List<Integer>> LevelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();

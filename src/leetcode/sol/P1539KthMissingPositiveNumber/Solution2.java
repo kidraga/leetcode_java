@@ -1,6 +1,6 @@
 package leetcode.sol.P1539KthMissingPositiveNumber;
 
-public class Solution2 {
+class Solution2 {
     /**
      *  0,1,2,3,4 index
      * [2,3,4,7,11]

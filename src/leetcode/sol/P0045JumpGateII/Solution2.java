@@ -3,7 +3,7 @@ package leetcode.sol.P0045JumpGateII;
 /**
  * Brute force with memorization.
  */
-public class Solution2 {
+class Solution2 {
     Integer[] mem;
     public int jump(int[] nums) {
         mem = new Integer[nums.length];

@@ -11,7 +11,7 @@ import java.util.List;
  * Instead, we have to maintain a "seen" set.
  * You want to ask interviewer that whether we could override values from input
  */
-public class Solution2 {
+class Solution2 {
     private static final int[][] directions = 
         new int[][]{{-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
     public int shortestPathBinaryMatrix(int[][] grid) {

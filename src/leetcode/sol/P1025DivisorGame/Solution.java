@@ -3,7 +3,7 @@ package leetcode.sol.P1025DivisorGame;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+class Solution {
     public boolean divisorGame(int n) {
         // n = 1, Alice lose
         // n = 2, Alice win

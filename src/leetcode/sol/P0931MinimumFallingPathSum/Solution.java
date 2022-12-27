@@ -4,7 +4,7 @@ package leetcode.sol.P0931MinimumFallingPathSum;
  * Time: O(n*2)
  * Space: O(n*2)
  */
-public class Solution {
+class Solution {
     public int minFallingPathSum(int[][] matrix) {
         /**
          * dp(i,j) = min(dp(i-1,j-1), dp(i-1,j), dp(i-1, j+1)) + matrix[i,j] with boundary check

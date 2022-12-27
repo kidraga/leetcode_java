@@ -1,6 +1,6 @@
 package leetcode.sol.P0045JumpGateII;
 
-public class Solution {
+class Solution {
     /**
      * Brute force
      * Time: O(2^n)

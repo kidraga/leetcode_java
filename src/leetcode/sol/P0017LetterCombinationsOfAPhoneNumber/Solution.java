@@ -3,13 +3,22 @@ package leetcode.sol.P0017LetterCombinationsOfAPhoneNumber;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
-public class Solution {
+class Solution {
 
     private List<String> combinations = new ArrayList<>();
-    private Map<Character, String> letters = Map.of(
-            '2', "abc", '3', "def", '4', "ghi", '5', "jkl",
-            '6', "mno", '7', "pqrs", '8', "tuv", '9', "wxyz");
+    private Map<Character, String> letters = Stream.of(new Object[][] {
+            {'2', "abc"},
+            {'3', "def"},
+            {'4', "ghi"},
+            {'5', "jkl"},
+            {'6', "mno"},
+            {'7', "pars"},
+            {'8', "tuv"},
+            {'9', "wxyz"},
+    }).collect(Collectors.toMap(data -> (Character) data[0], data -> (String) data[1]));
     private String phoneDigits;
 
     public List<String> letterCombinations(String digits) {

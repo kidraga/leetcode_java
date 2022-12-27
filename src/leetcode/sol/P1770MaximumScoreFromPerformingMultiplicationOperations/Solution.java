@@ -5,7 +5,7 @@ package leetcode.sol.P1770MaximumScoreFromPerformingMultiplicationOperations;
  * Time: O(M^2), M is length of multipliers
  * Space: O(1)
  */
-public class Solution {
+class Solution {
 
     public int maximumScore(int[] nums, int[] multipliers) {
         return calculateMaxScore(nums, multipliers, 0, nums.length - 1, 0);

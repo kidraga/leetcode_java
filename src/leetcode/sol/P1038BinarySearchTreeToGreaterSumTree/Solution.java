@@ -5,7 +5,7 @@ import leetcode.sol.util.TreeNode;
 /**
  * Same as 538
  */
-public class Solution {
+class Solution {
     private int sum = 0;
 
     public TreeNode bstToGst(TreeNode root) {

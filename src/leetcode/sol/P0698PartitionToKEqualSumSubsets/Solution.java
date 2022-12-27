@@ -1,6 +1,6 @@
 package leetcode.sol.P0698PartitionToKEqualSumSubsets;
 
-public class Solution {
+class Solution {
 
     private int[] nums;
     private int k;

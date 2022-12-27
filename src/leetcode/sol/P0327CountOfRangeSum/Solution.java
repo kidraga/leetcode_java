@@ -3,7 +3,7 @@ package leetcode.sol.P0327CountOfRangeSum;
 /**
  * https://labuladong.github.io/algo/2/21/41/
  */
-public class Solution {
+class Solution {
     private int lower;
     private int upper;
     private int count = 0;

@@ -3,7 +3,7 @@ package leetcode.sol.P0220ContainsDuplicateIII;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution2 {
+class Solution2 {
 
     public boolean containsNearbyAlmostDuplicate(int[] nums, int indexDiff, int valueDiff) {
         if (valueDiff < 0) return false;

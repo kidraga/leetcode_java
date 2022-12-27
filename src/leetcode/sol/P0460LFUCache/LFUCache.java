@@ -3,7 +3,7 @@ package leetcode.sol.P0460LFUCache;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LFUCache {
+class LFUCache {
 
     class Node {
         int key;

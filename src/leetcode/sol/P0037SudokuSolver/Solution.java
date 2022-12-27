@@ -1,6 +1,6 @@
 package leetcode.sol.P0037SudokuSolver;
 
-public class Solution {
+class Solution {
     public void solveSudoku(char[][] board) {
         if (board == null || board.length == 0) return;
         solve(board);

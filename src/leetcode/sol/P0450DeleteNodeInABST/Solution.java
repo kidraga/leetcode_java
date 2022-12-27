@@ -2,7 +2,7 @@ package leetcode.sol.P0450DeleteNodeInABST;
 
 import leetcode.sol.util.TreeNode;
 
-public class Solution {
+class Solution {
     public TreeNode deleteNode(TreeNode root, int key) {
         if (root == null) return null;
         if (root.val == key) {

@@ -3,7 +3,7 @@ package leetcode.sol.P0096UniqueBinarySearchTrees;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+class Solution {
     public int numTrees(int n) {
         if (n == 1) {
             return 1;

@@ -8,7 +8,7 @@ import java.util.Arrays;
  * 例如[2,2,3,4,4], 8
  * 2,2,4,4可以出两个组合，但是因为左右指针一起缩了，所以就错过了。
  */
-public class Solution2 {
+class Solution2 {
     public int threeSumMulti(int[] arr, int target) {
         Arrays.sort(arr);
 

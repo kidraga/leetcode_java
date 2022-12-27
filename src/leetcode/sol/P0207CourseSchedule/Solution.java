@@ -3,7 +3,7 @@ package leetcode.sol.P0207CourseSchedule;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+class Solution {
     private boolean[] visited; // 防止重复遍历同一个节点
     private boolean[] onPath;
     private boolean hasCycle = false;

@@ -3,7 +3,7 @@ package leetcode.sol.P0567PermutationInString;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+class Solution {
     public boolean checkInclusion(String s1, String s2) {
         Map<Character, Integer> charToCount = new HashMap<>();
         Map<Character, Integer> window = new HashMap<>();

@@ -9,7 +9,7 @@ import java.util.Set;
  * where N = 9. Since N is constant, both time and space are technically O(1).
  * But the algorithm also apply to N = any number, so O(N^2) makes more sense.
  */
-public class Solution {
+class Solution {
     public boolean isValidSudoku(char[][] board) {
         int N = 9;
 

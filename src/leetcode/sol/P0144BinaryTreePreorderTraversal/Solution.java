@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
-public class Solution {
+class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         if (root == null) return result;

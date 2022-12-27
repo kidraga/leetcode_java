@@ -2,7 +2,7 @@ package leetcode.sol.P0215KthLargestElementInAnArray;
 
 import java.util.PriorityQueue;
 
-public class Solution {
+class Solution {
     public int findKthLargest(int[] nums, int k) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         for (int num : nums) {

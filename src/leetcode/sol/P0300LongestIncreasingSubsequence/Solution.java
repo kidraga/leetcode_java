@@ -2,7 +2,7 @@ package leetcode.sol.P0300LongestIncreasingSubsequence;
 
 import java.util.Arrays;
 
-public class Solution {
+class Solution {
     public int lengthOfLIS(int[] nums) {
         // dp[i] max length of increasing array that ends with nums[i]
         int[] dp = new int[nums.length];

@@ -3,7 +3,7 @@ package leetcode.sol.P0870AdvantageShuffle;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
-public class Solution {
+class Solution {
     public int[] advantageCount(int[] nums1, int[] nums2) {
         int n = nums1.length;
         // 给nums2降序排序

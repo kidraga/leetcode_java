@@ -2,7 +2,7 @@ package leetcode.sol.P0105ConstructBinaryTreeFromPreorderAndInorderTraversal;
 
 import leetcode.sol.util.TreeNode;
 
-public class Solution {
+class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         return build(inorder, 0, inorder.length - 1, preorder, 0);
     }

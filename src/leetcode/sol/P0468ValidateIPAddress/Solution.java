@@ -1,6 +1,6 @@
 package leetcode.sol.P0468ValidateIPAddress;
 
-public class Solution {
+class Solution {
     private static String NEITHER = "Neither";
     private static String IPV4 = "IPv4";
     private static String IPV6 = "IPv6";

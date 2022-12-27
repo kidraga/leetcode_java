@@ -2,7 +2,7 @@ package leetcode.sol.P1335MinimumDifficultyOfAJobSchedule;
 
 import java.util.Arrays;
 
-public class Solution {
+class Solution {
     private int n;
     private int d;
     private int[] jobDifficulty;

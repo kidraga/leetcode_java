@@ -3,7 +3,7 @@ package leetcode.sol.P0077Combinations;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+class Solution {
     /**
      *
      * Time: O(k*C^k_n), C^k_n is the combination of k out of n = n! / (n-k)!k!

@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-public class NestedIterator2 implements Iterator<Integer> {
+class NestedIterator2 implements Iterator<Integer> {
 
     private LinkedList<NestedInteger> list;
 

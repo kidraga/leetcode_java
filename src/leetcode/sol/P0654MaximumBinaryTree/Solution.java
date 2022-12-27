@@ -2,7 +2,7 @@ package leetcode.sol.P0654MaximumBinaryTree;
 
 import leetcode.sol.util.TreeNode;
 
-public class Solution {
+class Solution {
     public TreeNode constructMaximumBinaryTree(int[] nums) {
         return build(nums, 0, nums.length - 1);
     }

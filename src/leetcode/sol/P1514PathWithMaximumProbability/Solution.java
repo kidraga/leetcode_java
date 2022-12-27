@@ -15,7 +15,7 @@ class State {
     }
 }
 
-public class Solution {
+class Solution {
     public double maxProbability(int n, int[][] edges, double[] succProb, int start, int end) {
         List<List<double[]>> graph = new ArrayList<>();
         for (int i = 0; i < n; i++) {

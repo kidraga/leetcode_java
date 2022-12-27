@@ -5,7 +5,7 @@ package leetcode.sol.P1539KthMissingPositiveNumber;
  * Time: O(n)
  * Space: O(1)
  */
-public class Solution {
+class Solution {
     public int findKthPositive(int[] arr, int k) {
         // arr[0] is the smallest
         // if k is smaller than that, no need to search and k is the answer

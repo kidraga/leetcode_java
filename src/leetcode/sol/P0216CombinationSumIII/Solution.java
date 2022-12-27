@@ -3,7 +3,7 @@ package leetcode.sol.P0216CombinationSumIII;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+class Solution {
     public List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> result = new ArrayList<>();
         List<Integer> selected = new ArrayList<>();

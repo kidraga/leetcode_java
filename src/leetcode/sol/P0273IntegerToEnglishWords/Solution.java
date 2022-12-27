@@ -1,6 +1,6 @@
 package leetcode.sol.P0273IntegerToEnglishWords;
 
-public class Solution {
+class Solution {
     private int BILLION = 1000000000;
     private int MILLION = 1000000;
     private int THOUSAND = 1000;

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Solution {
+class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         final List<List<Integer>> result = new ArrayList<>();
         List<Integer> path = new ArrayList<>();

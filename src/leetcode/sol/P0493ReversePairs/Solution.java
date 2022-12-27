@@ -1,6 +1,6 @@
 package leetcode.sol.P0493ReversePairs;
 
-public class Solution {
+class Solution {
     private int[] temp;
     private int count = 0;
     public int reversePairs(int[] nums) {

@@ -6,7 +6,7 @@ import leetcode.sol.util.ListNode;
  * Time: O(n)
  * Space: O(1)
  */
-public class Solution3 {
+class Solution3 {
     public boolean isPalindrome(ListNode head) {
         if (head == null) return true;
 

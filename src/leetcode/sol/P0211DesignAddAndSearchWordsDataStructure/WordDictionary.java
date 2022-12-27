@@ -2,7 +2,7 @@ package leetcode.sol.P0211DesignAddAndSearchWordsDataStructure;
 
 import leetcode.sol.util.TrieSet;
 
-public class WordDictionary {
+class WordDictionary {
 
     TrieSet set = new TrieSet();
 

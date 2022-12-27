@@ -6,7 +6,7 @@ import leetcode.sol.util.TreeNode;
  * https://labuladong.github.io/algo/2/21/48/
  * Time: O(logN*logN)
  */
-public class Solution {
+class Solution {
     public int countNodes(TreeNode root) {
         TreeNode left = root, right = root;
         // 沿最左侧和最右侧分别计算高度

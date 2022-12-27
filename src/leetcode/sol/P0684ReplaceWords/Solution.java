@@ -4,7 +4,7 @@ import leetcode.sol.util.TrieSet;
 
 import java.util.List;
 
-public class Solution {
+class Solution {
     public String replaceWords(List<String> dictionary, String sentence) {
         // 先将词根存入TrieSet
         TrieSet set = new TrieSet();

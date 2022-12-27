@@ -1,6 +1,6 @@
 package leetcode.sol.P0746MinCostClimbingStairs;
 
-public class Solution {
+class Solution {
     public int minCostClimbingStairs(int[] cost) {
         // f(n) = min(f(n-1) + cost[n-1], f(n-2) + cost[n-2])
         int n = cost.length;

@@ -1,6 +1,6 @@
 package leetcode.sol.P0064MinimumPathSum;
 
-public class Solution {
+class Solution {
 
     /**
      * Time: O(mn)

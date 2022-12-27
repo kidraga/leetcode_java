@@ -1,6 +1,6 @@
 package leetcode.sol.P0799ChampagneTower;
 
-public class Solution {
+class Solution {
     public double champagneTower(int poured, int query_row, int query_glass) {
         double[][] A = new double[query_row + 2][query_row + 2];
         A[0][0] = (double) poured;

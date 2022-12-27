@@ -4,7 +4,7 @@ package leetcode.sol.P0276PaintFence;
  * Time: O(n)
  * Space: O(n), can be optimized to O(1)
  */
-public class Solution {
+class Solution {
     public int numWays(int n , int k) {
         /* dp(i), at ith fence, the number of ways to paint this fence
            dp(n) is the answer

@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class WordDistance {
+class WordDistance {
     private Map<String, List<Integer>> wordToIndex = new HashMap<>();
 
     public WordDistance(String[] wordsDict) {

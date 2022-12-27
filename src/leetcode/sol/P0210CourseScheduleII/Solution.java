@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * recursive traverse. 后序遍历。然后reverse后续遍历的结果
  */
-public class Solution {
+class Solution {
 
     private List<Integer> postorder = new ArrayList<>(); // 记录后序遍历结果
     boolean hasCycle = false;

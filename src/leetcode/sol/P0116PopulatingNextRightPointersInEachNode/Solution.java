@@ -5,7 +5,7 @@ import leetcode.sol.util.Node;
 /**
  * https://labuladong.github.io/algo/2/21/37/
  */
-public class Solution {
+class Solution {
     public Node connect(Node root) {
         if (root == null) return null;
         // 遍历“三叉树”，链接相邻节点

@@ -1,6 +1,6 @@
 package leetcode.sol.P0036ValidSudoku;
 
-public class Solution2 {
+class Solution2 {
     /**
      * Similar to solution 1, instead of using a set: {0, 1, ..., 9}
      * we use an array that has length 9: [0, 0, ..., 0]

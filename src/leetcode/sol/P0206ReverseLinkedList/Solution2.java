@@ -2,7 +2,7 @@ package leetcode.sol.P0206ReverseLinkedList;
 
 import leetcode.sol.util.ListNode;
 
-public class Solution2{
+class Solution2{
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {
             return head;

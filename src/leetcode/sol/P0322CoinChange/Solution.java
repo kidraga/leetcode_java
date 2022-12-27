@@ -3,7 +3,7 @@ package leetcode.sol.P0322CoinChange;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+class Solution {
     private int[] coins;
     private Map<Integer, Integer> memo;
     public int coinChange(int[] coins, int amount) {

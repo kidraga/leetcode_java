@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * https://labuladong.github.io/algo/2/21/41/
  */
-public class Solution {
+class Solution {
     private class Pair {
         int val;
         int id;

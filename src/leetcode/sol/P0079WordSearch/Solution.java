@@ -1,6 +1,6 @@
 package leetcode.sol.P0079WordSearch;
 
-public class Solution {
+class Solution {
     private char[][] board;
     private int ROWS;
     private int COLS;

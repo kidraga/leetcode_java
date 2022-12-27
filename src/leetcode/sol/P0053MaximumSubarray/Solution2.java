@@ -1,6 +1,6 @@
 package leetcode.sol.P0053MaximumSubarray;
 
-public class Solution2 {
+class Solution2 {
     public int maxSubArray(int[] nums) {
         /** dp(i) = maxSubArray until nums[i], inclusive
          *  dp(i) has to do with dp(i-1) and nums[i]

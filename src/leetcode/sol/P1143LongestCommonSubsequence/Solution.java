@@ -1,6 +1,6 @@
 package leetcode.sol.P1143LongestCommonSubsequence;
 
-public class Solution {
+class Solution {
     private String text1;
     private String text2;
     private int[][] memo;

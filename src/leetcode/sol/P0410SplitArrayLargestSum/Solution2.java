@@ -1,6 +1,6 @@
 package leetcode.sol.P0410SplitArrayLargestSum;
 
-public class Solution2 {
+class Solution2 {
     // Defined it as per the maximum size of array and split count
     // But can be defined with the input size as well
     Integer[][] memo = new Integer[1001][51];

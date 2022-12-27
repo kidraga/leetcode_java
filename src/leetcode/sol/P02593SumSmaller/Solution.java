@@ -2,7 +2,7 @@ package leetcode.sol.P02593SumSmaller;
 
 import java.util.Arrays;
 
-public class Solution {
+class Solution {
     public int threeSumSmaller(int[] nums, int target) {
         int n = nums.length;
         Arrays.sort(nums);

@@ -10,7 +10,7 @@ import java.util.List;
  * 利用入度控制遍历的顺序
  * 入queue的顺序直接就是topo sort的结果
  */
-public class Solution2 {
+class Solution2 {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         // 建图
         List<List<Integer>> graph = buildGraph(numCourses, prerequisites);

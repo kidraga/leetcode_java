@@ -1,6 +1,6 @@
 package leetcode.sol.P0303RangeSumQueryImmutable;
 
-public class NumArray {
+class NumArray {
     private int[] prefixSum;
     public NumArray(int[] nums) {
         prefixSum = new int[nums.length + 1];

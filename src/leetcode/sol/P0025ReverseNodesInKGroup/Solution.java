@@ -2,7 +2,7 @@ package leetcode.sol.P0025ReverseNodesInKGroup;
 
 import leetcode.sol.util.ListNode;
 
-public class Solution{
+class Solution{
     public ListNode reverseKGroup(ListNode head, int k) {
         if (head == null) return null;
         // [a, b) has k nodes that pending reverse

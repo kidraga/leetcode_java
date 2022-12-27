@@ -2,7 +2,7 @@ package leetcode.sol.P0881BoatsToSavePeople;
 
 import java.util.Arrays;
 
-public class Solution {
+class Solution {
     public int numRescueBoats(int[] people, int limit) {
         Arrays.sort(people);
         int left = 0;

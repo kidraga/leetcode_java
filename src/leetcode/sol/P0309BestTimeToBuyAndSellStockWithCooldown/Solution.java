@@ -1,6 +1,6 @@
 package leetcode.sol.P0309BestTimeToBuyAndSellStockWithCooldown;
 
-public class Solution {
+class Solution {
     private int[] prices;
     private int[][][] memo;
     public int maxProfit(int[] prices) {

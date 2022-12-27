@@ -1,6 +1,6 @@
 package leetcode.sol.P0035SearchInsertPosition;
 
-public class Solution {
+class Solution {
     /**
     Edge cases:
     1. target is smaller than all values

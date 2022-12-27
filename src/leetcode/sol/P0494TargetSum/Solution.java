@@ -1,6 +1,6 @@
 package leetcode.sol.P0494TargetSum;
 
-public class Solution {
+class Solution {
     private int result = 0;
     public int findTargetSumWays(int[] nums, int target) {
         backtrack(nums, target, 0, 0);

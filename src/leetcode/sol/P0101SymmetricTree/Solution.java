@@ -2,7 +2,7 @@ package leetcode.sol.P0101SymmetricTree;
 
 import leetcode.sol.util.TreeNode;
 
-public class Solution {
+class Solution {
     /**
      * Recursive solution
      */

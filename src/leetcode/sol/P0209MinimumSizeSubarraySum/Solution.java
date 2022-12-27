@@ -3,7 +3,7 @@ package leetcode.sol.P0209MinimumSizeSubarraySum;
 /**
  * two pointer同向移动
  */
-public class Solution {
+class Solution {
     public int minSubArrayLen(int target, int[] nums) {
         int ans = Integer.MAX_VALUE;
         int sum = 0;

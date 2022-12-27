@@ -1,6 +1,6 @@
 package leetcode.sol.P0875KokoEatingBananas;
 
-public class Solution {
+class Solution {
     public int minEatingSpeed(int[] piles, int h) {
         int left = 1;
         int right = Integer.MIN_VALUE;

@@ -21,7 +21,7 @@ import java.util.List;
  * }
  *
  */
-public class Solution {
+class Solution {
 
     /**
      * Recursive solution

@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-public class Solution {
+class Solution {
     // 记录所有子树以及出现的次数
     Map<String, Integer> memo = new HashMap<>();
     // 记录重复的子树根节点

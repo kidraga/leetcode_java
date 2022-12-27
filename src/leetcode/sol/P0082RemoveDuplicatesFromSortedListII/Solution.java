@@ -2,7 +2,7 @@ package leetcode.sol.P0082RemoveDuplicatesFromSortedListII;
 
 import leetcode.sol.util.ListNode;
 
-public class Solution {
+class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         // dummy node
         ListNode dummy = new ListNode(0, head);

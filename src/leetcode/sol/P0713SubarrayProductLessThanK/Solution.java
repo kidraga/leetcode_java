@@ -1,6 +1,6 @@
 package leetcode.sol.P0713SubarrayProductLessThanK;
 
-public class Solution {
+class Solution {
     public int numSubarrayProductLessThanK(int[] nums, int k) {
         if (k == 0) return 0;
         double logk = Math.log(k);

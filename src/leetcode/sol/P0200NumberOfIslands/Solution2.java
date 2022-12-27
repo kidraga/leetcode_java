@@ -3,7 +3,7 @@ package leetcode.sol.P0200NumberOfIslands;
 import java.util.Deque;
 import java.util.LinkedList;
 
-public class Solution2 {
+class Solution2 {
     public int numIsLands(char[][] grid) {
         if (grid == null || grid.length == 0) {
             return 0;

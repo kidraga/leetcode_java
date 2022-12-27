@@ -1,6 +1,6 @@
 package leetcode.sol.P0713SubarrayProductLessThanK;
 
-public class Solution2 {
+class Solution2 {
     public int numSubarrayProductLessThanK(int[] nums, int k) {
         if (k <= 1) return 0;
         int product = 1, ans = 0, left = 0;

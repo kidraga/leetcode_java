@@ -2,7 +2,7 @@ package leetcode.sol.P1650LowestCommonAncestorOfABinaryTreeIII;
 
 import leetcode.sol.util.Node;
 
-public class Solution {
+class Solution {
     public Node lowestCommonAncestor(Node p, Node q) {
         // 链表双指针
         // 等同于两条单链表找交点

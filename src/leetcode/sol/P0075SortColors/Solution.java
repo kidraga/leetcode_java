@@ -1,6 +1,6 @@
 package leetcode.sol.P0075SortColors;
 
-public class Solution {
+class Solution {
     public void sortColors(int[] nums) {
         int zeroEnd = 0; // index of first number that != 0
         int twoStart = nums.length - 1; // index of number before 2

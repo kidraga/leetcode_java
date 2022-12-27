@@ -11,7 +11,7 @@ import java.util.Set;
  * This question is hard because it wants you to solve with O(1) space,
  * or at least O(blacklist size).
  */
-public class Solution {
+class Solution {
 
     int nClean;
     List<Integer> arr = new ArrayList<>();

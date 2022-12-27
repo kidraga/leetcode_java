@@ -3,7 +3,7 @@ package leetcode.sol.P0797AllPathsFromSourceToTarget;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Solution {
+class Solution {
 
     private List<List<Integer>> res = new LinkedList<>();
 

@@ -5,7 +5,7 @@ import leetcode.sol.util.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+class Solution {
     /**
      * Recursively DFS and traverse the tree
      */

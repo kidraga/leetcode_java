@@ -3,7 +3,7 @@ package leetcode.sol.P0221MaximalSquare;
 /**
  * Wrong solution
  */
-public class Solution {
+class Solution {
     private char[][] matrix;
     private int M;
     private int N;

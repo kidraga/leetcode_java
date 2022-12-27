@@ -3,7 +3,7 @@ package leetcode.sol.P0886PossibleBipartition;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+class Solution {
     private boolean[] visited;
     private boolean[] color;
     private boolean ok = true;

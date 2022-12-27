@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class Solution {
+class Solution {
 
     private Map<String, List<String>> adjList = new HashMap<>();
     private List<List<String>> result = new ArrayList<>();

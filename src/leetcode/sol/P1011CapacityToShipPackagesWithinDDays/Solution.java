@@ -1,6 +1,6 @@
 package leetcode.sol.P1011CapacityToShipPackagesWithinDDays;
 
-public class Solution {
+class Solution {
     public int shipWithinDays(int[] weights, int days) {
         int total = 0;
         int maxWeight = 0;

@@ -5,13 +5,12 @@ import leetcode.sol.util.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Deque;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Solution2 {
+class Solution2 {
 
     /**
      * Keep updating the smallest and largest column number, so we know the range

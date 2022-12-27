@@ -7,7 +7,7 @@ import java.util.Map;
  * Top-down DP
  * Time: O(N + k). N: nums.length. k: max(nums)
  */
-public class Solution {
+class Solution {
 
     private Map<Integer, Integer> points = new HashMap<>();
     private Map<Integer, Integer> cache = new HashMap<>();

@@ -5,7 +5,7 @@ import leetcode.sol.util.TreeNode;
 /**
  * Same as Problem 105
  */
-public class Solution {
+class Solution {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         return build(inorder, inorder.length - 1, 0, postorder, postorder.length - 1);
     }

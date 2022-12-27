@@ -2,7 +2,7 @@ package leetcode.sol.P0538ConvertBSTToGreaterTree;
 
 import leetcode.sol.util.TreeNode;
 
-public class Solution {
+class Solution {
     private int sum = 0;
 
     public TreeNode convertBST(TreeNode root) {

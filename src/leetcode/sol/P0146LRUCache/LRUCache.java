@@ -15,7 +15,7 @@ class Node {
     }
 }
 
-public class LRUCache {
+class LRUCache {
     int capacity;
     Node head; // head saves most recently used value
     Node tail;

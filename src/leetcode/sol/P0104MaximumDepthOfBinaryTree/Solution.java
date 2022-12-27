@@ -2,7 +2,7 @@ package leetcode.sol.P0104MaximumDepthOfBinaryTree;
 
 import leetcode.sol.util.TreeNode;
 
-public class Solution {
+class Solution {
     
     public int maxDepth(TreeNode root) {
         // DSF

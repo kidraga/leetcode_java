@@ -1,6 +1,6 @@
 package leetcode.sol.P0443StringCompression;
 
-public class Solution {
+class Solution {
     public int compress(char[] chars) {
         int count = 0;
         int start = 0;

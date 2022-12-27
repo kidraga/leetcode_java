@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 缺点：constructor计算量大。next()和hasNext()不是lazy的。
  */
-public class NestedIterator implements Iterator<Integer> {
+class NestedIterator implements Iterator<Integer> {
 
     private Iterator<Integer> it;
 

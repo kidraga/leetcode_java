@@ -2,7 +2,7 @@ package leetcode.sol.P0556NextGreaterElementIII;
 
 import java.util.Arrays;
 
-public class Solution {
+class Solution {
     public int nextGreaterElement(int n) {
         /**
          * xxx6234 -> xxx6243

@@ -3,7 +3,7 @@ package leetcode.sol.P0167TwoSumII;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+class Solution {
     public int[] twoSum(int[] numbers, int target) {
         Map<Integer, Integer> complementToIndex = new HashMap<>();
 

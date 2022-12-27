@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * https://labuladong.github.io/algo/2/20/27/
  */
-public class Solution {
+class Solution {
     public String minWindow(String s, String t) {
         // 统计t里的char以及数量，char to count in t
         Map<Character, Integer> need = new HashMap<>();

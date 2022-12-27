@@ -3,7 +3,7 @@ package leetcode.sol.P0785IsGraphBipartite;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class Solution2 {
+class Solution2 {
     // 记录图是否符合二分图性质
     private boolean ok = true;
     // 记录图中节点的颜色, false和true代表两种不同的颜色

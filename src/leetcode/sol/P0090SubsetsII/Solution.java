@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Solution {
+class Solution {
     /**
      * Follow up of P78
      * 和47类似，sort来跳过duplicate eliment

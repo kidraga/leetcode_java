@@ -3,7 +3,7 @@ package leetcode.sol.P0093RestoreIPAddresses;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+class Solution {
 
     private int n;
     private String s;

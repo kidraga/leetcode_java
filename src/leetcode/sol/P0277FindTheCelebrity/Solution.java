@@ -9,7 +9,7 @@ import leetcode.sol.util.Relation;
 /**
  * Brute force
  */
-public class Solution extends Relation {
+class Solution extends Relation {
     public int findCelebrity(int n) {
         for (int cand = 0; cand < n; cand++) {
             int other;

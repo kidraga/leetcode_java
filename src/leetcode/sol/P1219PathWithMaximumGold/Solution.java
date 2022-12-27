@@ -1,6 +1,6 @@
 package leetcode.sol.P1219PathWithMaximumGold;
 
-public class Solution {
+class Solution {
 
     private int[][] moves = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
 

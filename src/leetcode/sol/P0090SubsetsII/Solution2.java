@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class Solution2 {
+class Solution2 {
     /**
      * Wrong answer
      * Failed test case: [4, 4, 4, 1, 4]

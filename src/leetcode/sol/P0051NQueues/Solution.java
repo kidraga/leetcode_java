@@ -7,7 +7,7 @@ import java.util.Set;
 
 import javax.tools.DiagnosticCollector;
 
-public class Solution {
+class Solution {
 
     private int size;
     private List<List<String>> solutions = new ArrayList<>();

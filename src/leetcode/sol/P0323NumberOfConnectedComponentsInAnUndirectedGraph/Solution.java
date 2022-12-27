@@ -1,6 +1,6 @@
 package leetcode.sol.P0323NumberOfConnectedComponentsInAnUndirectedGraph;
 
-public class Solution {
+class Solution {
     public int countComponents(int n, int[][] edges) {
         UF uf = new UF(n);
         for (int[] edge : edges) {

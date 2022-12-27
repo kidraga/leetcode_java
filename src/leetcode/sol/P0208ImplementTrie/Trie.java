@@ -2,7 +2,7 @@ package leetcode.sol.P0208ImplementTrie;
 
 import leetcode.sol.util.TrieSet;
 
-public class Trie {
+class Trie {
     // 直接封装TrieSet
     TrieSet set = new TrieSet();
 

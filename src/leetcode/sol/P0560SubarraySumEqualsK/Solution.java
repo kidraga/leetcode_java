@@ -1,6 +1,6 @@
 package leetcode.sol.P0560SubarraySumEqualsK;
 
-public class Solution {
+class Solution {
   /**
    * Brute force solution.
    * find all subarray and calculate it's sum

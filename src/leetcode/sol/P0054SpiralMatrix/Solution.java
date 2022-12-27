@@ -3,7 +3,7 @@ package leetcode.sol.P0054SpiralMatrix;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         int m = matrix.length;
         int n = matrix[0].length;

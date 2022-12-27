@@ -2,7 +2,7 @@ package leetcode.sol.P0234PalindromeLinkedList;
 
 import leetcode.sol.util.ListNode;
 
-public class Solution2 {
+class Solution2 {
     private ListNode left;
     public boolean isPalindrome(ListNode head) {
         left = head;

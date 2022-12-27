@@ -21,7 +21,7 @@ import java.util.List;
  *
  * https://labuladong.github.io/algo/2/22/51/
  */
-public class Solution2 {
+class Solution2 {
 
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         // 建图,有向边代表"被依赖关系"

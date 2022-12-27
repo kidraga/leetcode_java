@@ -4,7 +4,7 @@ import leetcode.sol.util.ListNode;
 
 import java.util.Stack;
 
-public class Solution {
+class Solution {
     public boolean isPalindrome(ListNode head) {
         Stack<ListNode> stack = new Stack<>();
         ListNode node = head;

@@ -1,11 +1,9 @@
 package leetcode.sol.P0560SubarraySumEqualsK;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
-public class Solution2 {
+class Solution2 {
   /**
    * Definition of prefixSum:
    * PrefixSum[x] = sum of subarray(0, x) = nums[0] + nums[1] + ... + nums[x]

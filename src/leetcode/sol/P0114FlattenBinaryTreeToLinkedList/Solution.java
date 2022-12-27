@@ -7,7 +7,7 @@ import java.util.Deque;
 
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
@@ -20,7 +20,7 @@ import java.util.Deque;
  *     }
  * }
  */
-public class Solution {
+class Solution {
     /**
      * Recursive solution
      */

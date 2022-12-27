@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * https://leetcode.com/problems/random-pick-with-blacklist/solutions/144624/java-o-b-o-1-hashmap/
  */
-public class Solution2 {
+class Solution2 {
     int M;
     Random r;
     Map<Integer, Integer> map;

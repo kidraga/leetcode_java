@@ -1,6 +1,6 @@
 package leetcode.sol.P0053MaximumSubarray;
 
-public class Solution {
+class Solution {
     public int maxSubArray(int[] nums) {
         int best = Integer.MIN_VALUE;
         int current = 0;

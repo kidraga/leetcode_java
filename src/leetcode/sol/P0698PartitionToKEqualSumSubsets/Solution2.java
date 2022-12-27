@@ -1,13 +1,11 @@
 package leetcode.sol.P0698PartitionToKEqualSumSubsets;
 
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * Wrong
  */
-public class Solution2 {
+class Solution2 {
 
     private int[] nums;
     private int k;

@@ -6,7 +6,7 @@ import leetcode.sol.util.ListNode;
  * https://labuladong.github.io/algo/2/19/18/
  * See note
  */
-public class Solution {
+class Solution {
     public ListNode detectCycle(ListNode head) {
         if (head == null) return null;
         ListNode slow = head;

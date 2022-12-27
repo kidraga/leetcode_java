@@ -5,7 +5,7 @@ import java.util.Map;
 
 /** can improve the design, but works
  */
-public class SparseVector {
+class SparseVector {
 
     Map<Integer, Integer> indexToValue = new HashMap<>();
 

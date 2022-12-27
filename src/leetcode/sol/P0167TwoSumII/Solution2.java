@@ -1,6 +1,6 @@
 package leetcode.sol.P0167TwoSumII;
 
-public class Solution2 {
+class Solution2 {
     public int[] twoSum(int[] numbers, int target) {
         int low = 0;
         int high = numbers.length - 1;

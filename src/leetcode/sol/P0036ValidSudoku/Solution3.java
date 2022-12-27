@@ -1,6 +1,6 @@
 package leetcode.sol.P0036ValidSudoku;
 
-public class Solution3 {
+class Solution3 {
     /**
      * Similar to solution2, instead of using an array, we use a binary number.
      * [1, 0, 0, 1, 0, 0, 0, 1, 0] -> 1,4,8 is seen in a row, col or box

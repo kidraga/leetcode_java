@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * TLE, but correct
  */
-public class Solution {
+class Solution {
     // public List<Integer> nums;
     public int[] matchsticks;
     public int[] sums = new int[4];

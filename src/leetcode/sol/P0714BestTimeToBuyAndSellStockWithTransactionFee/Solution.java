@@ -1,6 +1,6 @@
 package leetcode.sol.P0714BestTimeToBuyAndSellStockWithTransactionFee;
 
-public class Solution {
+class Solution {
     private int[] prices;
     private int fee;
     private int[][] memo;

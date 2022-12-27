@@ -1,6 +1,6 @@
 package leetcode.sol.P0200NumberOfIslands;
 
-public class Solution {
+class Solution {
 
     /**
      * DFS solution

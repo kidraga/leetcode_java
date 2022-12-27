@@ -2,7 +2,7 @@ package leetcode.sol.P0581ShortestUnsortedContinuousSubarray;
 
 import java.util.Stack;
 
-public class Solution {
+class Solution {
     public int findUnsortedSubarray(int[] nums) {
         Stack<Integer> stack = new Stack<>();
 

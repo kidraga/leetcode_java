@@ -1,6 +1,6 @@
 package leetcode.sol.P0304RangeSumQuery2DImmutable;
 
-public class NumMatrix {
+class NumMatrix {
     private int[][] prefixSum;
 
     public NumMatrix(int[][] matrix) {

@@ -2,7 +2,7 @@ package leetcode.sol.P0230KthSmallestElementInABST;
 
 import leetcode.sol.util.TreeNode;
 
-public class Solution {
+class Solution {
     int res = 0;
     int rank = 0;
     public int kthSmallest(TreeNode root, int k) {

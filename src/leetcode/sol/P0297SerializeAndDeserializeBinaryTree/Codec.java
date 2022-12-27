@@ -4,7 +4,7 @@ import leetcode.sol.util.TreeNode;
 
 import java.util.LinkedList;
 
-public class Codec {
+class Codec {
     private static String SEP = ",";
     private static String NULL = "#";
     public String serialize(TreeNode root) {

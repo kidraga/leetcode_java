@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Deque;
 import java.util.List;
 
-public class Solution {
+class Solution {
     private static final int EMPTY = Integer.MAX_VALUE;
     private static final int GATE = 0;
     private static final List<int[]> DIRECTIONS = Arrays.asList(

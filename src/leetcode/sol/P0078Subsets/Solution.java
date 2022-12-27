@@ -1,9 +1,9 @@
-package leetcode.sol.P0047PermutationsII;
+package leetcode.sol.P0078Subsets;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         List<Integer> selected = new ArrayList<>();

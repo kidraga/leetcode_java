@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution2 {
+class Solution2 {
     public int longestStrChain(String[] words) {
         Map<String, Integer> dp = new HashMap<>();
 

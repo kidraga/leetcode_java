@@ -3,7 +3,7 @@ package leetcode.sol.P0119PascalsTriangleII;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+class Solution {
     public List<Integer> getRow(int rowIndex) {
         List<Integer> result = new ArrayList<>();
         List<List<Integer>> triangle = new ArrayList<>();

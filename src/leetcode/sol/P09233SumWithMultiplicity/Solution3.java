@@ -2,7 +2,7 @@ package leetcode.sol.P09233SumWithMultiplicity;
 
 import java.util.Arrays;
 
-public class Solution3 {
+class Solution3 {
     public int threeSumMulti(int[] arr, int target) {
         int MOD = 1_000_000_007;
         long ans = 0;

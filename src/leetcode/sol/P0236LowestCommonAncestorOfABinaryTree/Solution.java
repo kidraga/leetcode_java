@@ -2,7 +2,7 @@ package leetcode.sol.P0236LowestCommonAncestorOfABinaryTree;
 
 import leetcode.sol.util.TreeNode;
 
-public class Solution {
+class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         return find(root, p.val, q.val);
     }

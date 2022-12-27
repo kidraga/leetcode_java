@@ -1,6 +1,6 @@
 package leetcode.sol.P0198HouseRobber;
 
-public class Solution2 {
+class Solution2 {
     public int rob(int[] nums) {
         if (nums.length == 1) return nums[0];
 

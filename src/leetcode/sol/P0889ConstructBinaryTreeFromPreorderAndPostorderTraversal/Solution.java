@@ -5,7 +5,7 @@ import leetcode.sol.util.TreeNode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+class Solution {
     Map<Integer, Integer> valToIndex = new HashMap<>();
     public TreeNode constructFromPrePost(int[] preorder, int[] postorder) {
         for (int i = 0; i < postorder.length; i++) {

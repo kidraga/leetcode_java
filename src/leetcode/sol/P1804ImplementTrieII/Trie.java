@@ -2,7 +2,7 @@ package leetcode.sol.P1804ImplementTrieII;
 
 import leetcode.sol.util.TrieMap;
 
-public class Trie {
+class Trie {
 
     private TrieMap<Integer> map = new TrieMap<>();
 

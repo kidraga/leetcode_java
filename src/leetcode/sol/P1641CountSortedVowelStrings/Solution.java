@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Solution {
+class Solution {
     Map<Integer, Integer> A = new HashMap<>();
     Map<Integer, Integer> E = new HashMap<>();
     Map<Integer, Integer> I = new HashMap<>();

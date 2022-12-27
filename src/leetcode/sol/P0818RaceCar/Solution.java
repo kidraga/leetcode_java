@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Set;
 
-public class Solution {
+class Solution {
     public int racecar(int target) {
         Set<Pair<Integer, Integer>> visited = new HashSet<>();
         Queue<Pair<Integer, Integer>> queue = new LinkedList<>();

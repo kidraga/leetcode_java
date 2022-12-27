@@ -19,7 +19,7 @@ class State {
 
 }
 
-public class Solution {
+class Solution {
 
     int[][] dirs = new int[][]{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
 

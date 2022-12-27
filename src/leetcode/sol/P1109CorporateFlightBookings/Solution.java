@@ -36,7 +36,7 @@ class Difference {
 
 
 // same as problem 370
-public class Solution {
+class Solution {
     public int[] corpFlightBookings(int[][] bookings, int n) {
         int[] nums = new int[n];
         Difference df = new Difference(nums);

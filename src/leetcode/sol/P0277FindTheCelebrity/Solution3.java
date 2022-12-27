@@ -6,7 +6,7 @@ import leetcode.sol.util.Relation;
  * Time O(n)
  * Space O(1)
  */
-public class Solution3 extends Relation {
+class Solution3 extends Relation {
 
     public int findCelebrity(int n) {
         // 先假设cand是名人

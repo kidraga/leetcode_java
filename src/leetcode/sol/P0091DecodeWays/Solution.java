@@ -1,6 +1,6 @@
 package leetcode.sol.P0091DecodeWays;
 
-public class Solution {
+class Solution {
     public int numDecodings(String s) {
         /**
          * dp(i) number of ways to decode at ith position

@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Override each visited node to 1, so we don't need to visit again
  */
-public class Solution {
+class Solution {
     private static final int[][] directions = 
         new int[][]{{-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
     public int shortestPathBinaryMatrix(int[][] grid) {

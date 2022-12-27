@@ -2,7 +2,7 @@ package leetcode.sol.P0114FlattenBinaryTreeToLinkedList;
 
 import leetcode.sol.util.TreeNode;
 
-public class Solution3 {
+class Solution3 {
     public void flatten(TreeNode root) {
         if (root == null) return;
 

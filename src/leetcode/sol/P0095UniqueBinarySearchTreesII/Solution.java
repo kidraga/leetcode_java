@@ -5,7 +5,7 @@ import leetcode.sol.util.TreeNode;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Solution {
+class Solution {
 
     public List<TreeNode> generateTrees(int n) {
         if (n == 0) return new LinkedList<TreeNode>();

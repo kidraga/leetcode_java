@@ -2,7 +2,7 @@ package leetcode.sol.P0086PartitionList;
 
 import leetcode.sol.util.ListNode;
 
-public class Solution {
+class Solution {
     public ListNode partition(ListNode head, int x) {
         if (head == null) return null;
 

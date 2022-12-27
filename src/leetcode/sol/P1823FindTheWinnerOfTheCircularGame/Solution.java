@@ -8,7 +8,7 @@ import java.util.List;
  * Time O(n^2). Both ArrayList or LinkedList will result n^2 time
  * Space O(n)
  */
-public class Solution {
+class Solution {
     public int findTheWinner(int n, int k) {
         List<Integer> queue = new LinkedList<>();
         for (int i = 1; i <= n; i++) {

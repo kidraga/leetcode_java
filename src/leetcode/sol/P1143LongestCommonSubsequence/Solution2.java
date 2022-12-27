@@ -5,7 +5,7 @@ package leetcode.sol.P1143LongestCommonSubsequence;
  * The text2.indexOf() gives an additional O(N)
  * Space: O(M*N)
  */
-public class Solution2 {
+class Solution2 {
     private String text1;
     private String text2;
     private int[][] memo;

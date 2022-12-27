@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Time: O(N*2^N). N = s.length
  */
-public class Solution {
+class Solution {
     public List<List<String>> partition (String s) {
         List<List<String>> result = new ArrayList<>();
         backtrack(0, result, new ArrayList<String>(), s);

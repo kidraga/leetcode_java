@@ -4,7 +4,7 @@ import leetcode.sol.util.TrieMap;
 
 import java.util.List;
 
-public class MapSum {
+class MapSum {
 
     TrieMap<Integer> map = new TrieMap<>();
 

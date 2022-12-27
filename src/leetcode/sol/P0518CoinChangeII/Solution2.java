@@ -3,7 +3,7 @@ package leetcode.sol.P0518CoinChangeII;
 /**
  * https://leetcode.com/problems/coin-change-ii/discuss/99212/Knapsack-problem-Java-solution-with-thinking-process-O(nm)-Time-and-O(m)-Space
  */
-public class Solution2 {
+class Solution2 {
     private int[] coins;
     public int change(int amount, int[] coins) {
         /**

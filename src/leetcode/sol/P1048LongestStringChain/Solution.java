@@ -10,7 +10,7 @@ import java.util.Set;
  * Time: O(N + (L^2 * N)) = O(L^2 * N)
  * Space: O(N)
  */
-public class Solution {
+class Solution {
     public int longestStrChain(String[] words) {
         Set<String> wordsSet = new HashSet<>(Arrays.asList(words));
         Map<String, Integer> wordToLongestPath = new HashMap<>();

@@ -9,7 +9,7 @@ import java.util.TreeSet;
  * 自平衡二叉树会让左右子树节点数尽量差不多，不会出现一边一堆节点一边没有的情况，这样搜索效率会提高
  * 每次插入会通过旋转操作保持平衡
  */
-public class Solution {
+class Solution {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int indexDiff, int valueDiff) {
         TreeSet<Integer> set = new TreeSet<>();
         for (int i = 0; i < nums.length; i++) {

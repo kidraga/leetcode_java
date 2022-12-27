@@ -5,7 +5,7 @@ import leetcode.sol.util.ListNode;
 /**
  * https://labuladong.github.io/algo/2/19/19/
  */
-public class Solution {
+class Solution {
 
     private ListNode successor = null;
 

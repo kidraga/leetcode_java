@@ -5,7 +5,7 @@ import leetcode.sol.util.TreeNode;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Solution {
+class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode[] nodes) {
         Set<Integer> values = new HashSet<>();
         for (TreeNode node : nodes) {

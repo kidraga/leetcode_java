@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
-public class Solution2 {
+class Solution2 {
 
     /**
      * Iterative solution

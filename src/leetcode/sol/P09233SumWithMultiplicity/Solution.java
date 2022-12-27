@@ -14,7 +14,7 @@ import java.util.Set;
  * 例如：[3,3,3], 9
  * [2,2,4], 8
  */
-public class Solution {
+class Solution {
     public int threeSumMulti(int[] arr, int target) {
         Arrays.sort(arr);
         Map<Integer, Integer> counter = new HashMap<>();

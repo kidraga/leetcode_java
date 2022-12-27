@@ -1,6 +1,6 @@
 package leetcode.sol.P0045JumpGateII;
 
-public class Solution3 {
+class Solution3 {
     /**
      * DP solution
      * Time: O(n)

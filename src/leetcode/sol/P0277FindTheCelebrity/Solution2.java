@@ -20,7 +20,7 @@ import java.util.Deque;
  * }
  * 我们可以不断从候选人中选两个出来，然后排除掉一个，直到最后只剩下一个候选人，这时候再使用一个 for 循环判断这个候选人是否是货真价实的「名人」
  */
-public class Solution2 extends Relation {
+class Solution2 extends Relation {
 
     public int findCelebrity(int n) {
         if (n == 1) return 0;

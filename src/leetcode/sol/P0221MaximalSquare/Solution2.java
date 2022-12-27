@@ -1,6 +1,6 @@
 package leetcode.sol.P0221MaximalSquare;
 
-public class Solution2 {
+class Solution2 {
     public int maximalSquare(char[][] matrix) {
         int rows = matrix.length;
         int cols = matrix[0].length;

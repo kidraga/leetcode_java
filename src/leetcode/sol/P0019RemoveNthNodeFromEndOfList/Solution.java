@@ -2,7 +2,7 @@ package leetcode.sol.P0019RemoveNthNodeFromEndOfList;
 
 import leetcode.sol.util.ListNode;
 
-public class Solution {
+class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummy = new ListNode(-1);
         dummy.next = head;

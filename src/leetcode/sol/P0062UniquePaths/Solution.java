@@ -1,6 +1,6 @@
 package leetcode.sol.P0062UniquePaths;
 
-public class Solution {
+class Solution {
     /**
      * Time: O(M * N)
      * Space: O(M * N)

@@ -29,7 +29,7 @@ class Difference {
         return res;
     }
 }
-public class Solution {
+class Solution {
     public  boolean carPooling(int[][] trips, int capacity) {
         // 最多有1001个车站
         int[] nums = new int[1001];

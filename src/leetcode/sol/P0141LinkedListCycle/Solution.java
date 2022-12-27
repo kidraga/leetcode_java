@@ -2,7 +2,7 @@ package leetcode.sol.P0141LinkedListCycle;
 
 import leetcode.sol.util.ListNode;
 
-public class Solution {
+class Solution {
 
     public boolean hasCycle(ListNode head) {
         /**

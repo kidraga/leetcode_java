@@ -3,7 +3,7 @@ package leetcode.sol.P0034FindFirstAndLastPositionOfElementInSortedArray;
 /**
  * https://labuladong.github.io/algo/2/20/29/
  */
-public class Solution {
+class Solution {
     public int[] searchRange(int[] nums, int target) {
         int left = left_bound(nums, target);
         if (left == -1) return new int[]{-1, -1};

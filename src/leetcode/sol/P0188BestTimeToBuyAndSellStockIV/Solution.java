@@ -1,6 +1,6 @@
 package leetcode.sol.P0188BestTimeToBuyAndSellStockIV;
 
-public class Solution {
+class Solution {
     private int[] prices;
     private int[][][] memo;
     public int maxProfit(int k ,int[] prices) {

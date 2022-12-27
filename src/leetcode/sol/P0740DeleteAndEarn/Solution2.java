@@ -3,7 +3,7 @@ package leetcode.sol.P0740DeleteAndEarn;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution2 {
+class Solution2 {
     public int deleteAndEarn(int[] nums) {
         Map<Integer, Integer> points = new HashMap<>();
         int maxNumber = 0;

@@ -1,6 +1,6 @@
 package leetcode.sol.P0392IsSubsequence;
 
-public class Solution {
+class Solution {
     public boolean isSubsequence(String s, String t) {
         if (s.isEmpty()) return true;
         int posS = 0;

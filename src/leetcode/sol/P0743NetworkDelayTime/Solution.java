@@ -18,7 +18,7 @@ class State {
     }
 }
 
-public class Solution {
+class Solution {
     public int networkDelayTime(int[][] times, int n, int k) {
         // 节点编号是从1开始的，所以要一个大小为n+1的邻接表
         List<List<int[]>> graph = new ArrayList<>(); // 3D array

@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 
-public class Solution2 {
+class Solution2 {
     private Set<String> words;
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         words = new HashSet<>(wordList); // Space: O(M*N)

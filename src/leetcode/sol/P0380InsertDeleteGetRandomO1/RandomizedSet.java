@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-public class RandomizedSet {
+class RandomizedSet {
     List<Integer> nums = new ArrayList<>();
     Map<Integer, Integer> valToIndex = new HashMap<>();
     Random rand = new Random();

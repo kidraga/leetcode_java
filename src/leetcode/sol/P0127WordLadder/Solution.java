@@ -13,7 +13,7 @@ import java.util.Set;
  * M: length of a word
  * N: number of words in wordList
  */
-public class Solution {
+class Solution {
     private Set<String> words;
     public int ladderLength (String beginWord, String endWord, List<String> wordList) {
         // queue for BFS
