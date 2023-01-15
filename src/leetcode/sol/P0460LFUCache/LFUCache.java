@@ -36,7 +36,7 @@ class LFUCache {
         /**
          * Add node to the one after head
          */
-        public void add(Node node) {
+        void add(Node node) {
             head.next.prev = node;
             node.next = head.next;
             node.prev = head;
@@ -44,7 +44,7 @@ class LFUCache {
             size++;
         }
 
-        public void remove(Node node) {
+        void remove(Node node) {
             node.prev.next = node.next;
             node.next.prev = node.prev;
             size--;
