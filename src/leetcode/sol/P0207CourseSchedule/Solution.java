@@ -42,7 +42,7 @@ class Solution {
         if (visited[s]) {
             return;
         }
-        
+
         // 将当前节点标记为已遍历
         visited[s] = true;
         onPath[s] = true;
