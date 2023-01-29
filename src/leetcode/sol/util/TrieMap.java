@@ -3,7 +3,7 @@ package leetcode.sol.util;
 import java.util.LinkedList;
 import java.util.List;
 
-public class TrieMap<V> {
+public class TrieMap<V> { // key是String, 或者说char, 所以泛型不会是<K, V>
     // ASCII码个数
     private static final int R = 256;
     // 当前存在Map中的键值对个数
@@ -12,6 +12,9 @@ public class TrieMap<V> {
     private static class TrieNode<V> {
         V val = null;
         TrieNode<V>[] children = new TrieNode[R];
+        // 这里有uncheck warning, 因为我们declare的事TrieNode<V>[], 就是宣称我们要存的类型是V
+        // 但我们实例化的是TrieNode[], 是一个generic的TrieNode, 里面不一定是V
+        // 我们需要手动保证所有可以往TrieNode里写入和取出的方法都必须操作的是V
     }
 
     // Trie树的根节点
@@ -94,6 +97,7 @@ public class TrieMap<V> {
         // 能到这里，说明key的路线上的子树也删了，同时也没有其他子树了。那么这个节点也可以删了
         return null;
     }
+
     /** 查 **/
 
     // 搜索key对应的值，不存在则返回null
@@ -109,12 +113,30 @@ public class TrieMap<V> {
         return x.val;
     };
 
+    // 从节点node开始搜索key，如果存在返回对应节点，否则返回null
+    private TrieNode<V> getNode(TrieNode<V> node, String key) {
+        TrieNode<V> p = node;
+        // 从节点node开始搜索key
+        for (int i = 0; i < key.length(); i++) {
+            if (p == null) {
+                // 无法向下搜索
+                return null;
+            }
+            // 向下搜索
+            char c = key.charAt(i);
+            p = p.children[c];
+        }
+        return p;
+    }
+
     // 判断key是否存在在map中
     // containsKey("tea") -> false
     // containsKey("team") -> true
     public boolean containsKey(String key) {
         return get(key) != null;
     };
+
+    /** 常用API **/
 
     // 在map的所有key中搜索query的最短前缀
     // shortestPrefixOf("themxyz") -> "the"
@@ -301,19 +323,4 @@ public class TrieMap<V> {
         return size;
     };
 
-    // 从节点node开始搜索key，如果存在返回对应节点，否则返回null
-    private TrieNode<V> getNode(TrieNode<V> node, String key) {
-        TrieNode<V> p = node;
-        // 从节点node开始搜索key
-        for (int i = 0; i < key.length(); i++) {
-            if (p == null) {
-                // 无法向下搜索
-                return null;
-            }
-            // 向下搜索
-            char c = key.charAt(i);
-            p = p.children[c];
-        }
-        return p;
-    }
 }
