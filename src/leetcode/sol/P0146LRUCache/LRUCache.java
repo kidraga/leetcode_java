@@ -3,26 +3,30 @@ package leetcode.sol.P0146LRUCache;
 import java.util.HashMap;
 import java.util.Map;
 
-class Node {
-    Node prev;
-    Node next;
-    int key;
-    int value;
-
-    public Node(int key, int value) {
-        this.key = key;
-        this.value = value;
-    }
-}
-
 class LRUCache {
-    int capacity;
-    Node head; // head saves most recently used value
-    Node tail;
+
+    class Node {
+        Node prev;
+        Node next;
+        int key;
+        int value;
+
+        Node(int key, int value) {
+            this.key = key;
+            this.value = value;
+        }
+    }
+
+    private int capacity;
+    private Node dummyHead = new Node(-1, -1); // dummyHead.next is real head, and most recent used node
+    private Node dummyTail = new Node(-1, -1); // dummyTail.prev is real tail, and least recent used node
+
     Map<Integer, Node> keyToNode = new HashMap<>();
 
     public LRUCache(int capacity) {
         this.capacity = capacity;
+        dummyHead.next = dummyTail;
+        dummyTail.prev = dummyHead;
     }
 
     public int get(int key) {
@@ -51,8 +55,8 @@ class LRUCache {
             // if capacity is reached,
             // remove the least recently used node
             if (keyToNode.size() >= capacity) {
-                keyToNode.remove(tail.key);
-                removeNode(tail);
+                keyToNode.remove(dummyTail.prev.key);
+                removeNode(dummyTail.prev);
             }
             Node newNode = new Node(key, value);
             keyToNode.put(key, newNode);
@@ -61,24 +65,18 @@ class LRUCache {
     }
 
     private void removeNode(Node node) {
+        if (node == dummyHead || node == dummyTail) return; // this should never happen. Maybe assertion is better
         Node prev = node.prev;
         Node next = node.next;
-        // update head and tail pointers
-        if (node == head) head = head.next;
-        if (node == tail) tail = tail.prev;
-        // connect prev and next together
-        if (prev != null) prev.next = next;
-        if (next != null) next.prev = prev;
+        prev.next = next;
+        next.prev = prev;
     }
 
     private void setHead(Node node) {
-        node.next = head;
-        node.prev = null;
-        if (head != null) head.prev = node;
-        head = node;
-        // if only one node is in the list,
-        // we need to set tail to head
-        if (tail == null) tail = head;
+        node.next = dummyHead.next;
+        dummyHead.next.prev = node;
+        dummyHead.next = node;
+        node.prev = dummyHead;
     }
 
 }
