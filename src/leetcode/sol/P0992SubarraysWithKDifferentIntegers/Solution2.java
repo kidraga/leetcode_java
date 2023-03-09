@@ -1,9 +1,7 @@
 package leetcode.sol.P0992SubarraysWithKDifferentIntegers;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 class Solution2 {
     public int subarraysWithKDistinct(int[] nums, int k) {
