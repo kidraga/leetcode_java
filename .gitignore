@@ -2,3 +2,4 @@
 out/
 src/leetcode/sol/Companies/
 src/Practice.java
+*.iml
